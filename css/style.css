@@ -151,39 +151,39 @@ section.world div::before, section.world div::after {
 }
 .floor .grass.two {
   height: 10px;
-  animation: elem 3.3s linear infinite 0.2s;
+  animation: elem 3.3s linear infinite 0.4s;
 }
 .floor .grass.three {
   height: 18px;
-  animation: elem 2.5s linear infinite 0.4s;
+  animation: elem 2.5s linear infinite 0.8s;
 }
 .floor .grass.four {
   height: 5px;
-  animation: elem 2.9s linear infinite 0.6s;
+  animation: elem 2.9s linear infinite 1.2s;
 }
 .floor .grass.five {
   height: 7px;
-  animation: elem 3s linear infinite 0.8s;
+  animation: elem 3s linear infinite 1.6s;
 }
 .floor .grass.six {
   height: 10px;
-  animation: elem 3.1s linear infinite 1s;
+  animation: elem 3.1s linear infinite 2s;
 }
 .floor .grass.seven {
   height: 4px;
-  animation: elem 3s linear infinite 1.2s;
+  animation: elem 3s linear infinite 2.4s;
 }
 .floor .grass.height {
   height: 7px;
-  animation: elem 3s linear infinite 1.4s;
+  animation: elem 3s linear infinite 2.8s;
 }
 .floor .grass.nine {
   height: 10px;
-  animation: elem 3.1s linear infinite 1.6s;
+  animation: elem 3.1s linear infinite 3.2s;
 }
 .floor .grass.ten {
   height: 6px;
-  animation: elem 3s linear infinite 1.8s;
+  animation: elem 3s linear infinite 3.6s;
 }
 
 .cloud {
@@ -210,7 +210,7 @@ section.world div::before, section.world div::after {
 .cloud.one {
   width: 100px;
   top: 60px;
-  animation: cloud 3s linear infinite;
+  animation: cloud 5s linear infinite;
 }
 
 .cloud.two {
@@ -306,7 +306,7 @@ section.world div::before, section.world div::after {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-760px);
+    transform: translateX(-1560px);
   }
 }
 @keyframes elem {
@@ -314,7 +314,7 @@ section.world div::before, section.world div::after {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-640px);
+    transform: translateX(-1640px);
   }
 }
 @keyframes stick {
