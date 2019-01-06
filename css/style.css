@@ -42,7 +42,7 @@ section.world {
   top: 50%;
   left: 50%;
   overflow: hidden;
-  box-shadow: 0 16px 10px -10px #f0b400;
+  box-shadow: 0 16px 10px -10px #2f6e74;
   transform: translate(-50%, -50%);
 }
 section.world div {
@@ -60,7 +60,7 @@ section.world div::before, section.world div::after {
 .back {
   bottom: 0;
   right: -40%;
-  background: #e6ac00 !important;
+  background: #2f6e74 !important;
 }
 
 .back.one {
