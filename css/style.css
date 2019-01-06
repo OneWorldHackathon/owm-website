@@ -360,7 +360,7 @@ section.world div::before, section.world div::after {
 .footer {
   width:100%;
   position: absolute;
-  bottom:0;
+  bottom:0px;
   background: #2f6e74;
   color:#ffffff;
   
@@ -372,3 +372,19 @@ section.world div::before, section.world div::after {
   float:left;
 }
 .right {float:right;}
+
+@media only screen and (max-width: 768px) {
+  body {
+    background-position: 50% 50%;
+  }
+  .floor {
+    bottom:5px;
+  }
+  .right, .left {
+    float:none;
+    text-align: center;
+  }
+  .footer p {
+    padding:10px;
+  }
+}
